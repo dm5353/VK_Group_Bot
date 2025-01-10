@@ -2,12 +2,12 @@ import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 import requests
 
-TOKEN = "vk1.a.RkUPsNTy984bgDYrMBe1hyOehsGTZlcuLknTLKCqRoe-oZWGYRnLwdH2SD-eMFc35W_s2_PlJNpQVlDqPHTeY-lXs8FaaalPYNY_roZqBS2jyFYvpkeG-e-rJ-qhpyEzStD7C3bgCmUXaYh4K9LemJM-cammMKSfdeUAX2lgAuTMf_nBmlOBZowGwwGvcC-h1WgRhiljoA58I2uRyZCBQw"
-GROUP_ID = "228758039"
+TOKEN = "токен группы"
+GROUP_ID = "id группы"
 WELCOME_MESSAGE = "Добро пожаловать! Спасибо за подписку!"
 
 session = requests.Session()
-session.proxies = {
+session.proxies = { #прокси если нужен
     'http': 'http://95.66.138.21:8880'
 }
 
